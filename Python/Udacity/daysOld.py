@@ -1,3 +1,5 @@
+#using python3
+
 def daysBetweenDates(year1, month1, day1, year2, month2, day2):
     monthDay = [0,31,28,31,30,31,30,31,31,30,31,30,31] #0 for easily count
     monthDayLeap = [0,31,29,31,30,31,30,31,31,30,31,30,31] #0 for easily count
@@ -59,3 +61,16 @@ def daysBetweenDates(year1, month1, day1, year2, month2, day2):
                 k = k + 1
 
             return between - day1 + day2
+
+
+if __name__ == '__name__':
+	y1 = int(input("Input year1:\n"))
+	m1 = int(input("Input month1:\n"))
+	d1 = int(input("Input day1:\n"))
+	y2 = int(input("Input year2:\n"))
+	m2 = int(input("Input month2:\n"))
+	d2 = int(input("Input day2:\n"))
+
+	print(daysBetweenDates(y1, m1, d1, y2, m2, d2))
+
+
