@@ -63,7 +63,7 @@ def daysBetweenDates(year1, month1, day1, year2, month2, day2):
             return between - day1 + day2
 
 
-if __name__ == '__name__':
+if __name__ == '__main__':
 	y1 = int(input("Input year1:\n"))
 	m1 = int(input("Input month1:\n"))
 	d1 = int(input("Input day1:\n"))
