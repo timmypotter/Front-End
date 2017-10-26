@@ -1,3 +1,5 @@
+This program is applied for python 3
+
 In terminal, type:
 
 python daysOld.py
